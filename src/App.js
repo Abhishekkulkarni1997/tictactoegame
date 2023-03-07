@@ -99,6 +99,7 @@ function App() {
       <ToastContainer position="bottom-center" />
       <Row>
         <Col md={6} className="offset-md-3">
+          <h1 className="text-warning text-center bg-success">Tic Tac Toe</h1>
           {winMessage ? (
             <div className="mb-2 mt-2">
               <h1 className="text-success text-center">{winMessage}</h1>
